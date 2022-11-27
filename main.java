@@ -5,7 +5,6 @@ public class main {
         public static void main(String[] args) {
 
             int menu,op;
-            int numvehiculos = 1;
             int num2 = 1;
             Scanner sc= new Scanner(System.in);
 
@@ -27,6 +26,7 @@ public class main {
 
                 switch (menu){
                     case 1:
+                        int numvehiculos = 1;
                         System.out.println("Ingresa Los vehiculos");
 
                             vehiculo1.ingresarvehiculos(vehiculo1,numvehiculos );
